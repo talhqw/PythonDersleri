@@ -1,9 +1,9 @@
 #Girilen metnin harflerini alt alta yazdıran Python Örneği
 
 isim=input("Adınızı Girin ")
-sayac=0
-while sayac < len(isim):
-  print(isim[sayac])
-  sayac += 1
+i=0
+while i < len(isim):
+  print(isim[i])
+  i += 1
 else:
    print("Adının harflerini listeledim.")
